@@ -1,6 +1,6 @@
 package com.gabguimaraes.learnspringboot;
 
-import com.gabguimaraes.learnspringboot.jdbc.Car;
+import com.gabguimaraes.learnspringboot.model.Car;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-public class CourseController {
+public class CarController {
 
     @RequestMapping("/cars")
     public List<Car> retrieveAllCars() {

@@ -1,5 +1,6 @@
 package com.gabguimaraes.learnspringboot.jpa;
 
+import com.gabguimaraes.learnspringboot.model.CarJPA;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;

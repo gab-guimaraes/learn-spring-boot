@@ -1,4 +1,4 @@
-package com.gabguimaraes.learnspringboot.jdbc;
+package com.gabguimaraes.learnspringboot.model;
 
 public class Car {
     private int id;

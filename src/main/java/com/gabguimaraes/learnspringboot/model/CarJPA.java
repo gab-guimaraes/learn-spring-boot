@@ -1,4 +1,4 @@
-package com.gabguimaraes.learnspringboot.jpa;
+package com.gabguimaraes.learnspringboot.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
