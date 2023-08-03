@@ -1,6 +1,5 @@
-package com.gabguimaraes.learnspringboot.jdbcrepo;
+package com.gabguimaraes.learnspringboot.jdbc;
 
-import com.gabguimaraes.learnspringboot.Car;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -35,6 +34,4 @@ public class CourseJdbcRepository {
     public Car findById(int id) {
         return jdbcTemplate.queryForObject(SELECT_QUERY, new BeanPropertyRowMapper<>(Car.class), id);
     }
-
-
 }

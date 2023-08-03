@@ -1,6 +1,5 @@
-package com.gabguimaraes.learnspringboot.jpahib;
+package com.gabguimaraes.learnspringboot;
 
-import com.gabguimaraes.learnspringboot.LearnSpringBootApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

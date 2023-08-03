@@ -1,9 +1,18 @@
-package com.gabguimaraes.learnspringboot;
+package com.gabguimaraes.learnspringboot.jpa;
 
-public class Car {
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity(name = "cars")
+public class CarJPA {
+    @Id
     private int id;
+    @Column(name = "make")
     private String make;
+    @Column(name = "model")
     private String model;
+    @Column(name = "car_year")
     private int year;
 
     @Override
@@ -48,13 +57,13 @@ public class Car {
         this.year = year;
     }
 
-    public Car(int id, String make, String model, int year) {
+    public CarJPA(int id, String make, String model, int year) {
         this.id = id;
         this.make = make;
         this.model = model;
         this.year = year;
     }
 
-    public Car() {
+    public CarJPA() {
     }
 }

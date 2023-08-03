@@ -1,5 +1,6 @@
 package com.gabguimaraes.learnspringboot;
 
+import com.gabguimaraes.learnspringboot.jdbc.Car;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
