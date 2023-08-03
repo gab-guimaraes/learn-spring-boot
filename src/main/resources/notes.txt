@@ -1,0 +1,4 @@
+insert into cars(id, make, model, car_year)
+values(1, 'mitsubishi', 'lancer', 2012);
+
+select * from cars
