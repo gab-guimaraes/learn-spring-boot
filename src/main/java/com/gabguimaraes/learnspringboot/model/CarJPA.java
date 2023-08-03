@@ -15,6 +15,7 @@ public class CarJPA {
     @Column(name = "car_year")
     private int year;
 
+
     @Override
     public String toString() {
         return "Car{" +
